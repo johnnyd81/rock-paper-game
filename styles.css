@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
 body {
-  width: 95%;
+  width: 95%;/*setting the width of the page*/
   font-family: "Montserrat", sans-serif;
   text-align: center;
   background-color: lightgreen;
