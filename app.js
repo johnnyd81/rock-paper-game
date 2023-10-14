@@ -4,7 +4,7 @@ const userChoiceDisplay = document.getElementById("your_choice");
 const result = document.getElementById("result");
 const possibleChoices = document.querySelectorAll("button");
 let score = document.querySelector("#score");
-
+//create user and computer variables
 let userChoice;
 let computerChoice;
 let finalResult;
