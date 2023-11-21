@@ -1,4 +1,4 @@
-//DOM variables
+//DOM variables needed for the application
 const computerChoiceDisplay = document.getElementById("computer_choice");
 const userChoiceDisplay = document.getElementById("your_choice");
 const result = document.getElementById("result");
