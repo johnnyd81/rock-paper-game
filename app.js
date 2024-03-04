@@ -1,10 +1,10 @@
-//DOM variables
+//DOM variables needed for the application
 const computerChoiceDisplay = document.getElementById("computer_choice");
 const userChoiceDisplay = document.getElementById("your_choice");
 const result = document.getElementById("result");
 const possibleChoices = document.querySelectorAll("button");
 let score = document.querySelector("#score");
-
+//create user and computer variables
 let userChoice;
 let computerChoice;
 let finalResult;
@@ -26,7 +26,7 @@ function getRandom(min, max) {
 
 function generateComputerChoice() {
   const randomNumber = getRandom(1, 3);
-
+//the random number decides whether rock, paper or scissors is chosen
   if (randomNumber === 1) {
     computerChoice = "rock";
   } else if (randomNumber === 2) {
