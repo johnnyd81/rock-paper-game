@@ -19,7 +19,7 @@ possibleChoices.forEach((choice) => {
   });
 });
 
-//generates a random number in a range
+//generates a random number in a specific range
 function getRandom(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
