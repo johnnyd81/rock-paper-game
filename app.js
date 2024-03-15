@@ -19,7 +19,7 @@ possibleChoices.forEach((choice) => {
   });
 });
 
-//generates a random number in a specific range
+//generates a random number in a specific number range like from 0 to 20 for example
 function getRandom(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
