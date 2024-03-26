@@ -34,7 +34,7 @@ span {
   margin-left: 15px;
   text-shadow: 2px 2px 3px black;
 }
-/*styles the score value onscreen*/
+/*styles the user's score value onscreen*/
 #score {
   color: orangered;
   text-shadow: 1px 1px 1px black;
