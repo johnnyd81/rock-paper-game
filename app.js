@@ -38,7 +38,7 @@ function generateComputerChoice() {
   computerChoiceDisplay.innerHTML = computerChoice;
 }
 
-//each combination is calculated to render the correct output
+//each combination is calculated to render the correct output onscreen
 function getResult() {
   if (computerChoice === userChoice) {
     finalResult = "It's a draw";
