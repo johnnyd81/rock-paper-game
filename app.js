@@ -4,6 +4,7 @@ const userChoiceDisplay = document.getElementById("your_choice");
 const result = document.getElementById("result");
 const possibleChoices = document.querySelectorAll("button");
 let score = document.querySelector("#score");
+
 //create user and computer variables
 let userChoice;
 let computerChoice;
@@ -19,7 +20,7 @@ possibleChoices.forEach((choice) => {
   });
 });
 
-//generates a random number in a specific number range like from 0 to 20
+//generates a random number in a specific number range like from 0 to 20 using the Math.random method
 function getRandom(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
