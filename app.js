@@ -28,7 +28,7 @@ function getRandom(min, max) {
 function generateComputerChoice() {
   //calls the getRandom function with a number range of 1 to 3
   const randomNumber = getRandom(1, 3);
-//the random number decides whether rock, paper or scissors is chosen
+//the random number decides whether rock, paper or scissors is chosen and refers to the three choices
   if (randomNumber === 1) {
     computerChoice = "rock";
   } else if (randomNumber === 2) {
