@@ -1,14 +1,15 @@
 /*imported a custom font from google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
+/* Set the desired width, font-family, text alignment and background-color for the index page */
 body {
-  width: 95%;/*setting the desired width of the page*/
+  width: 95%;
   font-family: "Montserrat", sans-serif;
   text-align: center;
   background-color: lightgreen;
 }
 
-/*Main heading style declaration*/
+/* Main heading style declaration */
 h1 {
   color: goldenrod;
   text-shadow: 2px 2px 3px black;
