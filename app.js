@@ -11,6 +11,7 @@ let computerChoice;
 let finalResult;
 let total = 0;
 
+//add a click event to each of the choice buttons using a foreach loop
 possibleChoices.forEach((choice) => {
   choice.addEventListener("click", function (e) {
     userChoice = e.target.id;
