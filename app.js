@@ -16,7 +16,7 @@ possibleChoices.forEach((choice) => {
   choice.addEventListener("click", function (e) {
     userChoice = e.target.id;
     userChoiceDisplay.innerHTML = userChoice;
-    generateComputerChoice();
+    generateComputerChoice();//call the function to generate a random choice
     getResult();
   });
 });
