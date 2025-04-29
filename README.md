@@ -1,6 +1,6 @@
 # Rock - Paper - Scissors
 
-This app takes inspiration from the classic decision making game of rock paper scissors. The user selects an option and the computer selects an option. Each duel won adds one point to the user's overall total.
+This app takes inspiration from the classic game of rock paper scissors. The user selects an option and the computer selects an option. Each duel won adds one point to the user's overall total.
 
 ![image](![Alt text](image.png))
 This app takes inspiration from the game of rock paper scissors. The user selects an option and the computer selects an option. Each win adds one point to the user's total score.
