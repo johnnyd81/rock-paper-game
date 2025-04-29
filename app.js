@@ -1,4 +1,4 @@
-//DOM variables needed for the application to be interactive i.e. for button clicks and displaying the results
+//DOM variables needed for the application to be interactive i.e. for button clicks and displaying the results of the game
 const computerChoiceDisplay = document.getElementById("computer_choice");
 const userChoiceDisplay = document.getElementById("your_choice");
 const result = document.getElementById("result");
